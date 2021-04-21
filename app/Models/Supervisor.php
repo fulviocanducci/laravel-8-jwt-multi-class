@@ -34,6 +34,6 @@ class Supervisor extends Authenticatable implements JWTSubject
 
     public function getJWTCustomClaims()
     {
-        return ['supervisor'];
+        return ['class' => 'supervisor'];
     }
 }
